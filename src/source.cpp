@@ -13,7 +13,9 @@ struct Move
 {
 	int row, col;
 };
-// Add something stupid
+
+char playerx = 'X', opponent = 'O';
+
 bool isMovesLeft(char board[3][3])
 {
 	for (int i = 0; i < 3; i++)
