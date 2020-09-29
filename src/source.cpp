@@ -6,7 +6,7 @@
 #include <time.h>
 using namespace std;
 #define _WIN32_WINNT 0x0601
-bool English = false; // You can change the default langugage
+bool English = true; // You can change the default langugage
 /////////////////Tic tac toe main game////////////////////////////
 //////////////////////////AI//////////////////////////////////////
 struct Move
