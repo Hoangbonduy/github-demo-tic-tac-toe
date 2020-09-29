@@ -159,6 +159,7 @@ Move findBestMove(char board[3][3])
 	return bestMove;
 }
 ////////////////////////////AI////////////////////////////
+/*
 void EnterVietnamese()
 {
 	_setmode(_fileno(stdin), _O_TEXT);
@@ -171,6 +172,7 @@ void EnterVietnamese()
 	memcpy(consoleFont.FaceName, L"Consolas", sizeof(consoleFont.FaceName));
 	SetCurrentConsoleFontEx(hdlConsole, FALSE, &consoleFont);
 }
+*/
 /////////////////////////////Menu/////////////////////////////////////
 auto menu()
 {
@@ -286,9 +288,9 @@ char checkwin()
 }
 int main()
 {
-	EnterVietnamese();
+	//EnterVietnamese();
 	srand(time(NULL));
-manhinhchinh: // main menu
+    manhinhchinh: // main menu
 	menu();
 	if (!English) wcout << L"Nhập lựa chọn của bạn vào đây: ";
 	else if (English) wcout << L"Enter your selection in here: ";
